@@ -44,7 +44,7 @@ Postbird;
 
  -> Crie uma nova requisição e selecione o método HTTP POST.
 
- -> insira a url -> "htto://localhost:3333/users".
+ -> insira a url -> "http://localhost:3333/users".
 
  -> selecione o corpo da requisição como um arquivo JSON e insira as informações do usuário que deseja incluir no banco de dados, segue exemplo abaixo:
 
@@ -70,7 +70,7 @@ Postbird;
 
  -> Crie uma nova requisição e selecione o método HTTP POST.
 
- -> insira a url -> "htto://localhost:3333/sessions".
+ -> insira a url -> "http://localhost:3333/sessions".
 
  -> selecione o corpo da requisição como um arquivo JSON e insira as informações do usuário que deseja incluir no banco de dados, segue exemplo abaixo:
 
@@ -103,7 +103,7 @@ Postbird;
 
  -> Crie uma nova requisição e selecione o método HTTP POST.
 
- -> insira a url -> "htto://localhost:3333/products".
+ -> insira a url -> "http://localhost:3333/products".
 
  -> selecione o corpo da requisição como um arquivo JSON e insira as informações do usuário que deseja incluir no banco de dados, segue exemplo abaixo:
 
@@ -130,7 +130,7 @@ Postbird;
 
  -> Crie uma nova requisição e selecione o método HTTP DELETE
 
- -> insira a url -> "htto://localhost:3333/products/{insira aqui a id do produto que deseja deletar}".
+ -> insira a url -> "http://localhost:3333/products/{insira aqui a id do produto que deseja deletar}".
 
  -> não é necessário no corpo da requisição como um arquivo JSON, e as informações do produto que deseja excluir será exibida no campo de resposta do Insomnia, similar ao exemplo abaixo:
 
@@ -147,7 +147,7 @@ Postbird;
 
  -> Crie uma nova requisição e selecione o método HTTP GET
 
- -> insira a url -> "htto://localhost:3333/products".
+ -> insira a url -> "http://localhost:3333/products".
 
  -> não é necessário no corpo da requisição como um arquivo JSON, e será gerado uma lista de todos os produtos:
 
@@ -156,7 +156,7 @@ Postbird;
 
  -> Crie uma nova requisição e selecione o método HTTP GET
 
- -> insira a url -> "htto://localhost:3333/products/{insira aqui a id do produto que deseja encontrar}".
+ -> insira a url -> "http://localhost:3333/products/{insira aqui a id do produto que deseja encontrar}".
 
  -> não é necessário no corpo da requisição como um arquivo JSON, e será gerado um arquivo JSON similar ao exemplo abaixo:
 
@@ -173,7 +173,7 @@ Postbird;
 
  -> Crie uma nova requisição e selecione o método HTTP PATCH
 
- -> insira a url -> "htto://localhost:3333/images/{insira aqui a id do produto que gostaria de incluir uma imagem}".
+ -> insira a url -> "http://localhost:3333/images/{insira aqui a id do produto que gostaria de incluir uma imagem}".
 
  -> Crie uma nova requisição e selecione o método HTTP PATCH
 
